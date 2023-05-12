@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Instrument+Serif:ital@1&family=Playfair+Display:ital@1&display=swap');
+
+/* font-family: 'Indie Flower', cursive;
+font-family: 'Instrument Serif', serif;*/
+
+
+:root{
+       padding: 0%;
+       margin: 0%;
+       /* background-color: #404040 !important; */
+       box-sizing: border-box;
+
+
+
+    }
+    body{
+        background-color: #404040;
+
+        /* background-image: url(https://i.postimg.cc/bwdKLRsK/digital-digital-art-artwork-fantasy-art-drawing-hd-wallpaper-preview.jpg) ; */
+        /* background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.4; */
+
+
+    }
+    header{
+        background-color: #8C9A9E;
+        width: 100%;
+        height: 90px;
+        /* position: ; */
+
+
+    }
+    .navbar{
+        background-color:inherit !important;
+        font-size: 25px;
+        float: right;
+        /* margin-top:10px; give the nav bar some marginin landing cant apply sticky footer the ladnog coz the nav bar float */
+
+
+    }
+    #logo{
+        float:left;
+        max-width:90px;
+        max-height:90px;
+        margin:px;
+        padding: 9px;
+        border-radius: 50px;
+        opacity: 0.80;
+    }
+    #logo:hover{
+        opacity: 0.30;
+    }
+    #propic{  /* the main pciture on landing page */
+
+       border-radius: 95px;
+       margin:80px;
+       /* width: 400px; */
+       display:flex;
+       justify-content:center;
+    } 
+   
+        
+    #intro{  /* name and small sentence on landing  */
+        text-align: center;
+        font-size: 50px;
+        color:black;
+        /* margin:90px; */
+        font-family: 'Instrument Serif', serif;
+        margin-bottom: 30px;
+      
+
+    }
+   
+ 
+    @media screen and (max-width:600px) {
+        #logo{ display: none;
+        }
+        #propic{ 
+
+            border-radius: 500px;
+            margin: 100px;
+            width: 200px;
+
+         } 
+         #intro{  /* name and small sentence on landing  */
+            text-align: center !important;
+            font-size:25px;
+            color:black;
+            display: flex;
+
+            font-family: 'Instrument Serif', serif;
+    } 
+}    
+
+
+
+
+    #bodyfoot{ /* so that the footer can stay at the bottom of the page 
+       if i didnt add a ID it woulde affected my intro text  */
+        background-color: #404040;
+       min-height: 30vh;
+       display: flex;
+       flex-direction: column;
+
+    }
+    footer{
+        background-color: #8C9A9E;
+        position: absolute;
+        width: 99.99%;
+        height: 7rem;  /*the foot to be inline with navbar */
+        font-family: 'Instrument Serif', serif;
+        font-size: 20px;
+        align-items:flex-end;
+        position:sticky;
+
+
+    }
+    /* contact form */
+
+    input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      margin-top: 10px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    
+    input[type=submit] {
+      background-color: #344d53;
+      color: white;
+      /* padding: 12px 20px; */
+      /* border: none; */
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #a18080;
+    }
+    
+    /* Style the container/contact section */
+    .container-contact-form {
+      border-radius: 90px;
+      background-color: whitesmoke;
+      padding: 10px;
+      margin-bottom: 26px ;
+    }
+    
+    /* Create two columns that float next to eachother */
+    #contact-col {
+      float: left;
+      width: 50%;
+      margin-top: 6px;
+      padding: 20px;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    
+    /* Begin Media Queries*/
+    /* @media screen and (max-width: 850px) {
+      .contact-wrapper {
+        display: flex;
+        flex-direction: column;
+      }
+      .direct-contact-container, .form-horizontal {
+        margin: 0 auto;
+      }  
+      
+      .direct-contact-container {
+        margin-top: 60px;
+        max-width: 300px;
+      }    
+      .social-media-list li {
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+      }
+      .social-media-list li:after {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+      }
+    }
+     */
+    /* @media screen and (max-width: 569px) {
+    
+      .direct-contact-container, .form-wrapper {
+        float: none;
+        margin: 0 auto;
+      }  
+      .form-control, textarea {
+        
+        margin: 0 auto;
+      }
+     
+      
+      .name, .email, textarea {
+        width: 280px;
+      } 
+      
+      .direct-contact-container {
+        margin-top: 60px;
+        max-width: 280px;
+      }  
+      .social-media-list {
+        left: 0;
+      }
+      .social-media-list li {
+        height: 55px;
+        width: 55px;
+        line-height: 55px;
+        font-size: 2rem;
+      }
+      .social-media-list li:after {
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+      }
+      
+    }
+    
+    @media screen and (max-width: 410px) {
+      .send-button {
+        width: 99%;
+      }
+    } */
+#footer-contact-sticky{
+  position: sticky;
+  height: 169px;
+}
+#footer-contact-nav{
+  margin-top: 45px;
+}
+/* about me page */
+/* 
+#logoAbout{
+    border-radius: 500px;
+    margin: 200px;
+    width: 0px;
+    float:right;
+    border: 9px solid black;
+} */
+/* .container {
+  display: grid;
+  /* align-items: center;  */
+  /* grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+   */ 
+ /* }
+ 
+ /* .image-about {
+   max-width: 50%;
+   max-height:50%;
+ }
+ #myname{
+  margin: 20px;
+ }
+ 
+ .text-about {
+   font-size: 20px;
+   margin-left: 40px;}
+    
+   
+ 
+
+ /* #aboutmetext{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}  */
+ /* #aboutmepic{
+   
+    border-radius: 5px;
+    margin:120px;
+    width: 500px;
+}   */
+
+
+
+
+/* flex box style */
+
+/* .flexbox-container{
+    display: flex;
+   
+
+}
+ .flexbox-item{
+    width: 200px;
+    margin: 100px;
+    border: 3px solid black;  */
+     /* background-image: url(https://i.postimg.cc/Qt2FWsYB/coding-bg.jpg);  */
+/* }
+.flexbox-item-1{
+    height: 500px;
+    width: 1000px;
+    margin-top: 200px;
+    margin-left: 10px;
+    margin-bottom: 90px;
+}
+
+.flexbox-item-2{
+    height: 600px;
+    width: 500px;
+    margin-top: 150px;
+    margin-left: 10px;
+    margin-bottom: 90px;
+    padding: 20px;
+
+}  */
+
+/* for the imag to be respon */
+ /* .responsive {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+  }  */
+
+  
+  /* the about me container  */
+  .section-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+  }
+  .wrapper{
+    margin: 150px auto;
+    width: 80%;
+
+  }
+  
+  #aboutmepic{
+  /* max-width: 320px; */
+  float: left;
+  border: 3px solid black;
+  margin-right: 80px;
+     width:auto;
+    height: 700px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .text-box-about{
+    color: white;
+  }
+  .text-box-about h2{
+    font-size: 75px;
+  }
+  .text-box-about p{
+    font-size: 20px;
+    /* border:2px solid rgb(219, 4, 4) ;
+    margin: 40px; */         /* for the text box to go more center but do fiz it in MQ bcuz its no wrap in mo-blie  */
+
+  }
+
+
+/* .aboutbg{
+    background-image: url(https://i.postimg.cc/Qt2FWsYB/coding-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+} */
+
+
+
+
+/* EDUCATIONAL CSS/ */
+.aboutfoot-edu{
+  
+    background-color: #8C9A9E;
+    position: absolute;
+    width: 99.99%;
+    height: 7rem;  /*the foot to be inline with navbar */
+    font-family: 'Instrument Serif', serif;
+    font-size: 20px;
+    align-items:flex-end;
+    position:sticky;
+
+
+}
+
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+/* .timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 60%;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+} */
+
+/* Container around content */
+.container-timeline {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container-timeline::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+/* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+
+/* Full-width containers */
+  .container-timeline {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+/* Make sure that all arrows are pointing leftwards */
+  .container-timeline::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+/* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+    left: 15px;
+  }
+
+/* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+}
+
+/* progressbar */
+
+::selection {
+  background: salmon;
+  color: white;
+}
+
+b {
+  font-size: 31px;
+}
+
+.progress {
+  border: 2px solid #000000;
+  width: 20em;
+  border-radius: 4px;
+  /* box-shadow: 0 0 3px #B0B0; */
+  backdrop-filter: blur(2px) brightness(101%);
+  height: 50px;
+  width: 40rem;
+  display: flex;
+  margin-bottom: 40px;
+
+}
+
+.bar {
+  width: 50%;
+  background: rgb(236, 119, 9);
+  box-shadow: inset 0px 12px 1.7px #FFFFFF33;
+  border-radius: 3px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  height: 50px;
+  font-size: 34px;
+}
+
+.bar.CSS {
+  background: dodgerblue;
+  width: 40%;
+  
+}
+
+.bar.Boostrap {
+  background: indigo;
+  width: 10%;
+}
+
+.bar.JS {
+  background: rgb(255, 255, 255);
+  width: 100%;
+  
+}
+
+
+/* styles for skills icons */
+
+.skill-icons{
+margin-top: 50px;
+  
+}
+#jspic{
+  width: 250px;
+  border: 3px solid #020202;
+  margin: 3px;
+  padding: 10px;
+}
+#csspic{
+  height: 250px;
+  width: 250px;
+  border: 3px solid #020202;
+  margin: 3px;
+  padding: 10px;
+}

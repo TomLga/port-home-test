@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Instrument+Serif:ital@1&family=Playfair+Display:ital@1&display=swap');
+
+/* font-family: 'Indie Flower', cursive;
+font-family: 'Instrument Serif', serif;*/
+
+header{
+    background-color: #8C9A9E;
+    width: 100%;
+    height: 90px;
+    /* position: ; */
+
+
+}
+.navbar{
+    background-color:inherit !important;
+    font-size: 25px;
+    float: right;
+
+
+}
+#logo{
+    float:left;
+    max-width:90px;
+    max-height:90px;
+    margin:px;
+    padding: 9px;
+    border-radius: 50px;
+    opacity: 0.80;
+}
+#logo:hover{
+    opacity: 1;
+}
+
+
+/* cards and text */
+.card{
+    border: 2px solid black;
+    margin: 30px; 
+     padding:10px;
+      /* display: flex;  */
+      justify-content: center;
+
+
+}
+.card-body{
+    font-size: 23px;
+}
+
+.all{
+    display: flex;
+    background: black;
+    justify-content: space-around;
+    
+
+}
+
+#seth{
+    margin:10px;
+    /* height: 90px !important; */
+    
+    
+}
+footer{
+    background-color: #8C9A9E;
+    position: absolute;
+    width: 99.99%;
+    height: auto;
+    font-family: 'Instrument Serif', serif;
+    font-size: 20px;
+    align-items:center;
+
+
+}
